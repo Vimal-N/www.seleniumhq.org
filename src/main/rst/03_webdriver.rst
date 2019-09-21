@@ -90,7 +90,7 @@ your project.
 
 Be sure you specify the most current version.  At the time of writing, the version listed above was
 the most current, however there were frequent releases immediately after the release of Selenium 2.0.
-Check the `Maven download page <http://seleniumhq.org/download/maven.html>`_ for the current release and edit the above dependency accordingly.
+Check the `Maven download page <https://www.seleniumhq.org/download/maven.jsp>`_ for the current release and edit the above dependency accordingly.
 
 Now, from a command-line, CD into the project directory and run maven as follows.
 
@@ -1754,7 +1754,7 @@ sandbox.
 Running Standalone Selenium Server for use with RemoteDrivers
 -------------------------------------------------------------
 
-From `Selenium's Download page <http://selenium-release.storage.googleapis.com/index.html>`_ download selenium-server-standalone-<version>.jar and optionally IEDriverServer. If you plan to work with Chrome, download it from `Google Code <http://chromedriver.googlecode.com/>`_. 
+From `Selenium's Download page <http://selenium-release.storage.googleapis.com/index.html>`_ download selenium-server-standalone-<version>.jar and optionally IEDriverServer. If you plan to work with Chrome, download it from `Google Code <https://chromedriver.chromium.org/>`_. 
 
 Unpack IEDriverServer and/or chromedriver and put them in a directory which is on the $PATH / %PATH% - the Selenium Server should then be able to handle requests for IE / Chrome without additional modifications. 
 
